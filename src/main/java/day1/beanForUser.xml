@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--  2022-9-14 8:34-配置User类  -->
+    <bean id="user" class="day1.User">
+
+    </bean>
+
+    <bean id="book" class="day1.Book">
+        <property name="name" value="Bible"></property>
+        <property name="price" value="6.66"></property>
+    </bean>
+
+
+</beans>
